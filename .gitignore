@@ -1,0 +1,65 @@
+# Ambiente virtual
+venv/
+env/
+.env
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribuição/Empacotamento
+dist/
+build/
+*.egg-info/
+
+# Logs e relatórios
+log/
+*.log
+reports/
+*.pdf
+*.md
+
+# IDEs e editores
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Arquivos de configuração com dados sensíveis
+.env
+*.key
+credentials.json
+config/secrets.yaml
+
+# Arquivos temporários
+temp/
+tmp/
+.temp/
+.tmp/
+
+# Arquivos de cache do Serper e outros serviços
+.serper_cache/
+.cache/
+
+# Arquivos específicos do projeto que não devem ser versionados
+utils/__pycache__/
+backup/
+test_results/
+
+# Arquivos de configuração local
+instance/
+.instance/
+
+# Arquivos de dependências
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+coverage.xml
+*.cover

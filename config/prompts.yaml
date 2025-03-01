@@ -1,0 +1,44 @@
+# Configuração de Prompts para Análise de Tendências Musicais
+
+queries:
+  - name: tiktok_trends
+    query: "latest music industry trends 2025 TikTok"
+    weight: 1.0
+  - name: emerging_genres
+    query: "emerging music genres trends current year"
+    weight: 1.0
+  - name: production_tech
+    query: "music production technology trends current"
+    weight: 1.0
+  - name: streaming_platforms
+    query: "music streaming platform trends current year"
+    weight: 1.0
+  - name: marketing_strategies
+    query: "viral music marketing strategies current"
+    weight: 1.0
+
+analysis_prompt:
+  system_context: "Atue como um analista de mercado musical especializado em plataformas digitais."
+  main_instruction: "Analise as seguintes tendências atuais e forneça insights detalhados:"
+  
+  topics:
+    - name: "Tendências Principais e Impacto no Mercado"
+      required: true
+    - name: "Oportunidades Emergentes"
+      required: true
+    - name: "Desafios e Riscos"
+      required: true
+    - name: "Recomendações Estratégicas"
+      required: true
+    - name: "Previsões para os Próximos Meses"
+      required: true
+
+  requirements:
+    - "Forneça dados quantitativos quando disponíveis"
+    - "Cite exemplos específicos das fontes"
+    - "Identifique padrões e correlações"
+    - "Sugira ações práticas baseadas nos insights"
+
+  max_results_per_query: 5
+  temperature: 0.7
+  max_tokens: 2000 

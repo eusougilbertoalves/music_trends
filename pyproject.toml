@@ -1,0 +1,12 @@
+[project]
+name = "music-trends"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fpdf>=1.7.2",
+    "litellm>=1.61.20",
+    "python-dotenv>=1.0.1",
+    "pyyaml>=6.0.2",
+]
