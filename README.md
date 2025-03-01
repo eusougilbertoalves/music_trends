@@ -8,7 +8,7 @@ Um sistema de análise de tendências da indústria musical que utiliza IA para 
 - Análise usando modelos de linguagem avançados
 - Geração de relatórios em formato Markdown e PDF
 - Categorização inteligente de tendências
-- Foco em diferentes aspectos do mercado musical (TikTok, gêneros emergentes, tecnologia, etc.)
+- Foco em diferentes aspectos do mercado musical (TikTok e midias sociais similares, gêneros emergentes, tecnologia, etc.)
 
 ## Requisitos
 
