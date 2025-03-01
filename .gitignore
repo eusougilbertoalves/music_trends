@@ -56,6 +56,10 @@ instance/
 # Arquivos de dependências
 pip-log.txt
 pip-delete-this-directory.txt
+uv.lock
+
+# Arquivos gerados automaticamente
+hello.py
 
 # Coverage reports
 htmlcov/
